@@ -70,4 +70,4 @@ var check = true;
 // typeof always return the string value
 console.log(typeof check);
 const checker= typeof check;
-console.log(typeof check); // what type exactly typeof
+console.log(typeof checker); // what type exactly typeof
