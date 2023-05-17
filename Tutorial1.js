@@ -63,3 +63,11 @@ b=30;
 // Interview Important Question
 console.log("positive=>", typeof Infinity); //type number
 console.log("negative=>", typeof -Infinity);//type number
+
+//boolean
+
+var check = true;
+// typeof always return the string value
+console.log(typeof check);
+const checker= typeof check;
+console.log(typeof check); // what type exactly typeof
