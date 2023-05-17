@@ -28,8 +28,38 @@ console.log("Hey I'm Sarvesh");
 // in javascript anything inside the single quoted , double quoted and  ``(back-tick)
 var firstName="Sarvesh";
 var lastName='Belwalkar';
-var middleNmae=`Balkrishna`
+var middleNmae=`Balkrishna`;
 console.log(firstName, middleNmae, lastName);
 
 // typeof keyword will tell you what is the data type
 console.log(typeof firstName, typeof middleNmae, typeof lastName);
+
+var a="Sarvesh";
+console.log("Line No: 38", typeof a);
+a=1234;
+console.log("Line No: 40", typeof a);
+var a=234; // this will not give any error re-declaration allowed for variable
+console.log()
+
+console.log(window, a);
+
+b=30;
+
+// types are there in js main
+
+//number
+//string
+//boolean
+//BigInt
+//Object
+//Symbol
+//undefined
+
+//
+
+// Infinity
+// -Infinity
+
+// Interview Important Question
+console.log("positive=>", typeof Infinity); //type number
+console.log("negative=>", typeof -Infinity);//type number
