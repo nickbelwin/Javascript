@@ -13,7 +13,7 @@ var details = 20 + " Vishal"; // convert 20 into string and + operatoor will con
 // Note: 3 => All the array either empty or some value consider a true value
 // Note: 4 => All the object is consider as a true value
 
-const lastName = "Sharma";
+const lastName = "Belwalkar";
 const middleName = "";
 if (middleName) {
   console.log("Hey having middle name");
